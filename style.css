@@ -603,3 +603,28 @@ footer{
   justify-content: center;
   text-align: center;
 }
+
+
+
+/*-------------------*-*--------------*/
+/* Book card */
+.book-card-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.book-card-content img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;      /* fills the card, cropping if needed */
+    object-position: center;
+}
+
+.arabic-text {
+    padding-right: 20px;
+    text-align: right !important;
+    direction: ltr !important;
+}
